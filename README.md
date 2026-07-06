@@ -57,7 +57,7 @@ Demostrar un pipeline completo de análisis de datos: desde carga y exploración
 - `calificacion`: Calificación del producto (3-5 estrellas)
 - `ventas_units`: Unidades vendidas en período (109-260)
 
-**Nota:** Este dataset es completamente ficticio y se generó para propósitos educativos. Es útil para validar pipelines de análisis; para obtener conclusiones comerciales reales, utilizar datos reales de ventas.
+**Nota:** Este dataset es completamente ficticio.
 
 
 
