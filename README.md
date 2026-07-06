@@ -10,8 +10,8 @@ Este repositorio contiene guías, ejercicios, notebooks Jupyter y datasets utili
 
 ```
 .
-├── Unidad 1/          # Introducción a Python y análisis básico
-├── Unidad 2 y 3/      # Análisis exploratorio y limpieza de datos
+├── Unidad 1/          # Introducción a Python y análisis básico de datos
+├── Unidad 2 y 3/      # Análisis exploratorio, regresión lineal y polinómica.
 ├── Unidad 4/          # Métodos de aprendizaje supervisado (árboles, RF, SVM, KNN, redes)
 └── Unidad 5/          # Análisis completo: EDA, clustering y conclusiones
     ├── alfajores_dataset.csv           # Dataset sintético (120 registros)
