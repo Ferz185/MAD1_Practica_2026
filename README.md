@@ -56,7 +56,7 @@ El proyecto integra teoría y práctica con material educativo estructurado, eje
 │   ├── Métodos de Densidad (DBSCAN, LOF)
 │   └── Autoencoders
 │
-└── README.md                    # Este archivo
+└── README.md                    
 ```
 
 ## 📚 Contenido por Unidades
@@ -135,14 +135,6 @@ Descubrimiento de patrones sin etiquetas:
 - **Jupyter Notebooks**: Documentación interactiva
 - **Herramientas Complementarias**: APIs, Web Scraping, Visualización interactiva
 
-## 📖 Cómo Usar Este Repositorio
-
-1. **Inicio**: Comienza con Unidad 1 para aprender preparación de datos
-2. **Progresión**: Continúa secuencialmente según tu ritmo de aprendizaje
-3. **Práctica**: Ejecuta los notebooks de cada unidad
-4. **Proyecto**: Implementa técnicas en el Hackathon MAD (Unidades 2-3)
-5. **Avance**: Progresa a técnicas avanzadas (Unidades 4-5)
-
 ## 📋 Requisitos
 
 - Python 3.7+ con librerías: pandas, numpy, scikit-learn, matplotlib, plotly, tensorflow
@@ -154,6 +146,8 @@ Descubrimiento de patrones sin etiquetas:
 
 **Métodos para el Análisis de Datos I - 2026**  
 Universidad Nacional del Sur
+Alumno: Fernando Ezequiel Ramón
+Profesor: Jose Bavio
 
 ---
 
