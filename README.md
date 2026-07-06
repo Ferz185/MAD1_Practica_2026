@@ -10,8 +10,8 @@ Este repositorio contiene guías, ejercicios, notebooks Jupyter y datasets utili
 
 ```
 .
-├── Unidad 1/          # Introducción a Python y análisis básico
-├── Unidad 2 y 3/      # Análisis exploratorio y limpieza de datos
+├── Unidad 1/          # Introducción a Python y análisis básico de datos
+├── Unidad 2 y 3/      # Análisis exploratorio, regresión lineal y polinómica.
 ├── Unidad 4/          # Métodos de aprendizaje supervisado (árboles, RF, SVM, KNN, redes)
 └── Unidad 5/          # Análisis completo: EDA, clustering y conclusiones
     ├── alfajores_dataset.csv           # Dataset sintético (120 registros)
@@ -19,7 +19,7 @@ Este repositorio contiene guías, ejercicios, notebooks Jupyter y datasets utili
     └── alfajores_analisis_resultados.csv # Asignaciones de clusters y features
 ```
 
-## Unidad 5: Caso de Estudio - Análisis de Alfajores
+## Observaciones para la unidad 5: Caso de Estudio - Análisis de Alfajores
 
 ### Objetivo
 Demostrar un pipeline completo de análisis de datos: desde carga y exploración, hasta segmentación (clustering) con K-Means y exportación de resultados.
@@ -57,38 +57,8 @@ Demostrar un pipeline completo de análisis de datos: desde carga y exploración
 - `calificacion`: Calificación del producto (3-5 estrellas)
 - `ventas_units`: Unidades vendidas en período (109-260)
 
-**Nota:** Este dataset es completamente ficticio y se generó para propósitos educativos. Es útil para validar pipelines de análisis; para obtener conclusiones comerciales reales, utilizar datos reales de ventas.
+**Nota:** Este dataset es completamente ficticio.
 
-## Cómo Usar los Notebooks
 
-### Requisitos
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn nbconvert jupyter
-```
 
-### Ejecutar Unidad 5
-```bash
-cd Unidad\ 5
-python -m nbconvert --to notebook --execute U5_alfajores_analisis.ipynb
-```
 
-### Interpretar Resultados
-- `alfajores_analisis_resultados.csv`: Contiene cada registro con su asignación de cluster (columna `cluster`) y proyecciones PCA
-- Usarla para reportes, visualizaciones adicionales o modelos posteriores
-
-## Competencias Desarrolladas
-
-- ✅ Análisis exploratorio de datos (EDA)
-- ✅ Preparación y escalado de features
-- ✅ Selección automática de hiperparámetros (silhouette score)
-- ✅ Clustering no supervisado (K-Means)
-- ✅ Reducción de dimensionalidad (PCA)
-- ✅ Exportación y comunicación de resultados
-
-## Licencia
-
-Ejercicio educativo - Materia MAD1 2026.
-
-## Contacto / Contribuciones
-
-Para consultas o mejoras en los notebooks, dirigirse al responsable del curso.
