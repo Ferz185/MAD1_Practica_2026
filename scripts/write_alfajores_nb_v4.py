@@ -17,7 +17,7 @@ from sklearn.metrics import silhouette_score
 sns.set(style="whitegrid")
 
 # Cargar dataset
-df = pd.read_csv('Unidad 5/alfajores_dataset.csv')
+df = pd.read_csv('alfajores_dataset.csv')
 df.head()
 """))
 
@@ -122,8 +122,8 @@ plt.show()
 """))
 
 cells.append(nbf.v4.new_code_cell("""# Exportar resultados agregados y asignaciones
-df.to_csv('Unidad 5/alfajores_analisis_resultados.csv', index=False)
-print('Exportado Unidad 5/alfajores_analisis_resultados.csv')
+df.to_csv('alfajores_analisis_resultados.csv', index=False)
+print('Exportado alfajores_analisis_resultados.csv')
 """))
 
 # Long conclusions markdown

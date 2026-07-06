@@ -65,5 +65,5 @@ for i in range(n):
 cols = ['marca','precio','peso_g','azucar_pct','relleno','calificacion','ventas_units']
 df = pd.DataFrame(rows, columns=cols)
 # save
-df.to_csv('Unidad 5/alfajores_dataset.csv', index=False)
-print('Generado Unidad 5/alfajores_dataset.csv con', len(df), 'filas')
+df.to_csv('alfajores_dataset.csv', index=False)
+print('Generado alfajores_dataset.csv con', len(df), 'filas')
