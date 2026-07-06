@@ -4,14 +4,7 @@
 
 Este repositorio contiene la **parte práctica de la materia "Métodos para el Análisis de Datos I"**, organizando los trabajos prácticos de todas las unidades del curso.
 
-El proyecto incluye actividades prácticas progresivas, desde conceptos fundamentales hasta análisis avanzado, con un énfasis especial en la aplicación real de técnicas de análisis de datos a problemas concretos.
-
-## 🎯 Objetivos
-
-- Dominar metodologías fundamentales para el análisis de datos
-- Aplicar técnicas estadísticas y computacionales a datasets reales
-- Desarrollar habilidades en visualización y comunicación de resultados
-- Implementar un proyecto completo de análisis de datos
+El proyecto incluye actividades prácticas progresivas, desde conceptos fundamentales hasta análisis avanzado.
 
 ## 📁 Estructura del Repositorio
 
