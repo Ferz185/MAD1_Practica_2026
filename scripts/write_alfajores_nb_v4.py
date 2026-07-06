@@ -25,7 +25,7 @@ cells.append(nbf.v4.new_code_cell("""# Información y estadísticos
 print('Shape:', df.shape)
 df.info()
 
-print('\nDescribe (numéricas):')
+print('\\nDescribe (numéricas):')
 df.select_dtypes(include=[np.number]).describe()
 """))
 
@@ -90,7 +90,7 @@ k = int(best_k)
 km = KMeans(n_clusters=k, random_state=42, n_init=10)
 df['cluster'] = km.fit_predict(Xs)
 print('Silhouette final:', round(silhouette_score(Xs, df['cluster']),3))
-print('\nCluster counts:')
+print('\\nCluster counts:')
 print(df['cluster'].value_counts())
 """))
 
