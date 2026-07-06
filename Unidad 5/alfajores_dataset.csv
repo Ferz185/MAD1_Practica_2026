@@ -1,0 +1,16 @@
+marca,precio,peso_g,azucar_pct,relleno,calificacion,ventas_units
+ChocoDelight,120.0,45,30,dulce_de_leche,4.5,250
+DulceCasa,95.0,40,28,crema,4.0,190
+LaReina,130.0,50,32,dulce_de_leche,4.7,300
+SaborLocal,80.0,38,25,fruta,3.8,150
+Artisanal,200.0,60,35,crema,4.9,120
+RicoBocado,110.0,44,29,dulce_de_leche,4.3,220
+Tradicion,90.0,42,27,crema,4.1,180
+Merienda,75.0,36,24,fruta,3.6,140
+Fabrica,140.0,55,33,dulce_de_leche,4.6,260
+Panaderia,100.0,43,28,crema,4.2,200
+Gourmet,250.0,70,38,ganache,5.0,80
+Casero,65.0,34,22,fruta,3.4,100
+Delicia,160.0,58,34,ganache,4.8,160
+Mini,50.0,25,20,crema,3.2,60
+Premium,300.0,80,40,ganache,5.0,50
