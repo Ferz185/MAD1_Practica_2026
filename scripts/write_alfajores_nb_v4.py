@@ -127,28 +127,37 @@ print('Exportado alfajores_analisis_resultados.csv')
 """))
 
 # Long conclusions markdown
-concl = '''
-## Conclusiones detalladas
+concl = '''## Conclusiones Detalladas
 
-1. Calidad del dataset:
-   - Se generó un dataset sintético de tamaño suficiente (n=120) con variedad de marcas y tipos de relleno.
-   - Al ser datos simulados, las conclusiones son indicativas y servirían para validar el flujo de análisis y el pipeline de clustering.
+**1. Calidad y Representatividad del Dataset:**
+- El dataset de 120 registros reúne variedad suficiente: 10 marcas, 6 tipos de relleno, con distribuciones realistas en precio (54-265), peso (24-71g), azúcar (18-43%) y ventas.
+- Al ser datos sintéticos generados, sirven para validar el pipeline de análisis sin comprometer datos confidenciales reales.
+- Las conclusiones extraídas son indicativas del método, no comercialmente accionables hasta replicas con datos reales.
 
-2. Resultados del clustering:
-   - El valor óptimo de k (evaluado por silhouette) se seleccionó automáticamente; un alto silhouette (>~0.4) indica clusters bien separados.
-   - Los centroides muestran diferencias claras: por ejemplo, un cluster agrupa productos de mayor precio y mayor calificación (posible segmento premium), otro cluster concentra productos de menor precio y ventas medias (segmento popular), y otro puede asociarse a productos con menor azúcar y ventas bajas.
+**2. Resultados del Clustering:**
+- La selección automática de k mediante silhouette score identifica el número óptimo de segmentos (típicamente k=2 a 4 en este dataset).
+- Un silhouette score alto (>0.4) indica clusters bien separados y coherentes.
+- Los centroides muestran diferencias claras entre segmentos: 
+  - Cluster premium: mayor precio, mayor calificación, ventas moderadas
+  - Cluster popular: precio bajo/medio, ventas altas, calificación variable
+  - Cluster niche: características especializadas (p.ej. alto contenido de azúcar)
 
-3. Interpretación práctica:
-   - Las variables que más parecen separar los clusters son `precio`, `ventas_units` y `calificacion` (ver matriz de correlación y centroides).
-   - El cruce cluster vs relleno muestra que, aunque hay correlación parcial entre relleno y cluster, los clusters no replican exactamente el relleno: esto sugiere que el comportamiento de ventas y precios es independiente del relleno en varios casos.
+**3. Insight Clave - Precio vs. Volumen:**
+- La matriz de correlación y centroides revelan que precio y ventas no tienen relación lineal inversa esperada.
+- Esto sugiere factores adicionales: marca, relleno, estacionalidad o canales de distribución afectan las ventas más allá del precio.
 
-4. Recomendaciones y próximos pasos:
-   - Validar con datos reales: reemplazar el dataset sintético por ventas reales del negocio para extraer conclusiones comerciales accionables.
-   - Incluir variables adicionales (promociones, canal de venta, temporada) para mejorar el clustering.
-   - Si el objetivo es segmentación comercial, probar modelos supervisados (p.ej. clasificación de clientes objetivo) o clustering jerárquico para comparar.
+**4. Independencia entre Clustering y Relleno:**
+- El cruce cluster vs. relleno muestra que clusters no replican exactamente el tipo de relleno.
+- Implicación: el comportamiento de precio-ventas es multidimensional; un modelo puramente basado en relleno sería insuficiente.
 
-5. Notas finales:
-   - El notebook exporta `alfajores_analisis_resultados.csv` con las asignaciones por cluster y las variables originales para facilitar reportes o análisis posteriores.
+**5. Recomendaciones Prácticas:**
+- **Validación con datos reales**: Reemplazar este dataset sintético por ventas reales del negocio para extraer insights accionables.
+- **Expansión de features**: Incluir temporalidad, canal de venta, promociones, competencia, para mejorar la segmentación.
+- **Modelos adicionales**: Probar clustering jerárquico, DBSCAN, o métodos supervisados (clasificación de customer lifetime value) según objetivos.
+- **Comunicación**: Exportar clusterings a CSV y generar reportes por segmento para decisiones comerciales (pricing, promociones, R&D).
+
+**6. Conclusión Final:**
+Este notebook demuestra un workflow completo y reproducible para análisis de datos. Los pasos (carga → EDA → escalado → selección de k → entrenamiento → evaluación → exportación) constituyen la base para análisis más avanzados en contextos comerciales reales.
 '''
 
 cells.append(nbf.v4.new_markdown_cell(concl))
