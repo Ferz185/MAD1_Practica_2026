@@ -1,32 +1,36 @@
-# Métodos para el Análisis de Datos - Hackathon MAD 2026
+# Métodos para el Análisis de Datos I
 
 ## 📊 Descripción del Proyecto
 
-Este repositorio contiene el trabajo realizado en el **Hackathon de Métodos para el Análisis de Datos (MAD)** de 2026. El proyecto se centra en el análisis exploratorio de datos municipales, específicamente en las órdenes de compras del Municipio de Bahía Blanca.
+Este repositorio contiene la **parte práctica de la materia "Métodos para el Análisis de Datos I"**, organizando los trabajos prácticos de todas las unidades del curso.
 
-## 🎯 Objetivo
+El proyecto incluye actividades prácticas progresivas, desde conceptos fundamentales hasta análisis avanzado, con un énfasis especial en la aplicación real de técnicas de análisis de datos a problemas concretos.
 
-Desarrollar metodologías avanzadas para el análisis de datos que permitan:
-- Explorar patrones en las órdenes de compra municipales
-- Identificar proveedores y tendencias
-- Generar visualizaciones interactivas y reportes analíticos
-- Aplicar técnicas de análisis de datos a problemas reales
+## 🎯 Objetivos
+
+- Dominar metodologías fundamentales para el análisis de datos
+- Aplicar técnicas estadísticas y computacionales a datasets reales
+- Desarrollar habilidades en visualización y comunicación de resultados
+- Implementar un proyecto completo de análisis de datos
 
 ## 📁 Estructura del Repositorio
 
 ```
 .
-├── Unidades 1, 2 y 3/          # Contenido inicial y fundamentación
-│   ├── Entregable.ipynb         # Notebook principal con análisis
+├── Unidad 1/                    # Fundamentos del Análisis de Datos
+│   └── Práctica Unidad 1/       # Actividades y ejercicios básicos
+│
+├── Unidad 2 y 3/                # Análisis Exploratorio de Datos
+│   ├── Entregable.ipynb         # Proyecto: Análisis de Órdenes de Compra
 │   ├── hackathon_MAD1_2026.pdf  # Documentación del hackathon
-│   ├── ordenes_de_compras_municipales-2024.csv  # Dataset principal
+│   ├── ordenes_de_compras_municipales-2024.csv
 │   ├── Explorador de Proveedores - Municipio de Bahia Blanca.html
 │   └── Explorador de Proveedores - Municipio de Bahia Blanca_files/
 │
-├── Unidad 4/                    # Análisis avanzado y modelado
+├── Unidad 4/                    # Análisis Avanzado
 │   └── (Contenido a completar)
 │
-├── Unidad 5/                    # Conclusiones y recomendaciones
+├── Unidad 5/                    # Tópicos Especiales
 │   └── (Contenido a completar)
 │
 └── README.md                    # Este archivo
@@ -34,57 +38,61 @@ Desarrollar metodologías avanzadas para el análisis de datos que permitan:
 
 ## 📚 Contenido por Unidades
 
-### **Unidades 1, 2 y 3: Fundamentos y Análisis Exploratorio**
-- Introducción a los métodos de análisis de datos
-- Exploración del dataset de órdenes de compra
-- Análisis descriptivo y visualizaciones iniciales
-- Identificación de patrones y proveedores
+### **Unidad 1: Fundamentos del Análisis de Datos**
+Introducción a conceptos básicos, herramientas y técnicas fundamentales:
+- Importancia del análisis de datos
+- Herramientas computacionales
+- Estadística descriptiva
+- Introducción a Python/Programación
+
+### **Unidad 2 y 3: Análisis Exploratorio de Datos (EDA)**
+Aplicación práctica con un caso real - Hackathon MAD 2026:
+- Carga y limpieza de datos
+- Exploración del dataset de órdenes de compra municipal
+- Visualizaciones descriptivas
+- Identificación de patrones y anomalías
+- Análisis de proveedores y tendencias de gasto
+
+**Proyecto Destacado**: Análisis de órdenes de compra del Municipio de Bahía Blanca - identificación de patrones de gasto, análisis de proveedores y creación de dashboards interactivos.
 
 ### **Unidad 4: Análisis Avanzado**
-- Técnicas avanzadas de procesamiento de datos
-- Modelado predictivo
+Técnicas sofisticadas y modelado:
 - Análisis multivariado
-- Segmentación de proveedores
+- Técnicas de reducción dimensional
+- Modelado predictivo
+- Machine Learning aplicado
 
-### **Unidad 5: Conclusiones y Recomendaciones**
-- Resumen de hallazgos principales
-- Recomendaciones basadas en el análisis
-- Propuestas de mejora para el proceso de compras
-- Documentación final
-
-## 📊 Dataset Principal
-
-**Archivo**: `ordenes_de_compras_municipales-2024.csv`
-
-Contiene información sobre órdenes de compra realizadas por el Municipio de Bahía Blanca durante 2024, incluyendo:
-- Proveedores
-- Montos
-- Categorías de gasto
-- Fechas de compra
-- Descripciones de ítems
+### **Unidad 5: Tópicos Especiales**
+Aplicaciones especializadas y proyecto final:
+- Tópicos selectos según avance
+- Proyecto integrador
+- Presentación de resultados
 
 ## 🛠️ Tecnologías Utilizadas
 
 - **Python**: Análisis de datos y procesamiento
 - **Jupyter Notebooks**: Documentación interactiva
-- **Pandas**: Manipulación de datos
-- **Matplotlib / Plotly**: Visualizaciones
-- **HTML**: Dashboards interactivos
+- **Pandas & NumPy**: Manipulación y análisis numérico
+- **Matplotlib & Plotly**: Visualizaciones
+- **HTML/JS**: Dashboards interactivos
 
 ## 📖 Cómo Usar Este Repositorio
 
-1. Navega a la carpeta de la unidad que deseas revisar
-2. Abre el archivo `.ipynb` correspondiente con Jupyter Notebook
+1. Navega a la carpeta de la unidad que deseas estudiar
+2. Abre los archivos `.ipynb` con Jupyter Notebook
 3. Ejecuta las celdas para reproducir los análisis
-4. Consulta el archivo PDF de documentación para contexto adicional
+4. Consulta los PDFs y documentación para contexto adicional
 
-## 👥 Participantes
+## 📋 Requisitos
 
-Hackathon MAD 2026 - Equipo de Análisis de Datos
+- Python 3.7+
+- Jupyter Notebook
+- pandas, numpy, matplotlib, plotly
+- Otros según se especifique en cada unidad
 
-## 📝 Licencia
+## 👥 Materia
 
-Proyecto académico - Universidad/Institución
+Métodos para el Análisis de Datos I - 2026
 
 ---
 
