@@ -19,7 +19,7 @@ Este repositorio contiene guías, ejercicios, notebooks Jupyter y datasets utili
     └── alfajores_analisis_resultados.csv # Asignaciones de clusters y features
 ```
 
-## Unidad 5: Caso de Estudio - Análisis de Alfajores
+## Observaciones para la unidad 5: Caso de Estudio - Análisis de Alfajores
 
 ### Objetivo
 Demostrar un pipeline completo de análisis de datos: desde carga y exploración, hasta segmentación (clustering) con K-Means y exportación de resultados.
@@ -59,36 +59,6 @@ Demostrar un pipeline completo de análisis de datos: desde carga y exploración
 
 **Nota:** Este dataset es completamente ficticio y se generó para propósitos educativos. Es útil para validar pipelines de análisis; para obtener conclusiones comerciales reales, utilizar datos reales de ventas.
 
-## Cómo Usar los Notebooks
 
-### Requisitos
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn nbconvert jupyter
-```
 
-### Ejecutar Unidad 5
-```bash
-cd Unidad\ 5
-python -m nbconvert --to notebook --execute U5_alfajores_analisis.ipynb
-```
 
-### Interpretar Resultados
-- `alfajores_analisis_resultados.csv`: Contiene cada registro con su asignación de cluster (columna `cluster`) y proyecciones PCA
-- Usarla para reportes, visualizaciones adicionales o modelos posteriores
-
-## Competencias Desarrolladas
-
-- ✅ Análisis exploratorio de datos (EDA)
-- ✅ Preparación y escalado de features
-- ✅ Selección automática de hiperparámetros (silhouette score)
-- ✅ Clustering no supervisado (K-Means)
-- ✅ Reducción de dimensionalidad (PCA)
-- ✅ Exportación y comunicación de resultados
-
-## Licencia
-
-Ejercicio educativo - Materia MAD1 2026.
-
-## Contacto / Contribuciones
-
-Para consultas o mejoras en los notebooks, dirigirse al responsable del curso.
